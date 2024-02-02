@@ -1,0 +1,7 @@
+1. make the email/ps option show up only when the user clicks on it ($$done)
+2. make the email/ps section slide depending on if the user wants to login or register ($$done)
+3. connect the github, apple, email/ps and google login buttons through fire base
+4. connect redux to our react app to store the user logged in info
+5. make the profile picture and name of the user to show up on the dash board
+6. once the user click on the profile, certain quick options should appear like, sign out, settings, edit etc
+7. work on the navigation links pages like home, explore about , contact etc 

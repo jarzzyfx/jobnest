@@ -1,3 +1,4 @@
+import Navbar from '@/components/ui-components/Navbar'
 import './globals.css'
 
 export const metadata = {
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="w-full relative h-screen p-4">
+        <Navbar/>
+        {children}</body>
     </html>
   )
 }
